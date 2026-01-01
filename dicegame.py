@@ -1,5 +1,6 @@
 import random
 # print("\u25CF \u250C \u2500 \u2510 \u2502 \u2514 \u2518")
+# used unicode 
 
 # "┌─────────┐"
 # "│         │"
@@ -49,20 +50,13 @@ for die in range(num_of_rolls):
 # for die in range(num_of_rolls):
 #     for line in dice_art.get(dice[die]):
 #         print(line)
+# this is for vertical
 
 for line in range (5):
     for die in dice:
         print(dice_art.get(die)[line],end=" ")
     print()
-
-# for die in range(num_of_rolls):
-#     for line in dice_art.get(dice[die]):
-#         print(line)
-
-# for line in range(5):
-#     for die in dice:
-#         print(dice_art.get(die)[line],end="")
-#     print()
+# this id for horizontal
 
 for die in dice:
     total+=die
